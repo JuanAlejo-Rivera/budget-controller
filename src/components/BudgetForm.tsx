@@ -8,9 +8,7 @@ export default function BudgetForm() {
   // Maneja el cambio del input y formatea con separadores de miles
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e.target.value)
-    // Eliminamos todo lo que no sea número
     const numericValue = e.target.value.replace(/\D/g, "");
-    // Convertimos a número real o null si está vacío
     const numberValue = numericValue ? parseInt(numericValue) : null;
     setBudget(numberValue);
   };
