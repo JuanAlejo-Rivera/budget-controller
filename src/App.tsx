@@ -24,20 +24,14 @@ function App() {
   return (
     <>
       <header className="bg-gradient-to-r from-blue-700 to-blue-800 p-4 shadow-md">
-        <h1 className="text-center font-bold text-4xl text-white">
+        <h1 className="text-center font-thin text-4xl text-white">
           Planificador De Gastos
         </h1>
       </header>
 
-      {/* Fondo general */}
-      <div className="min-h-screen bg-gradient-to-b from-blue-900 to-blue-700 relative overflow-hidden">
+      <div className="min-h-screen bg-[url(/pruebas.jpg)] overflow-hidden bg-cover bg-center">
 
-        {/* Iconos decorativos en el fondo */}
-        <div className="absolute inset-0 bg-[url('/piggybank.svg')] bg-repeat opacity-10"></div>
-        <div className="absolute inset-0 bg-[url('/money.svg')] bg-repeat opacity-5"></div>
-
-
-        <div className="relative z-10 max-w-3xl mx-auto bg-white shadow-lg rounded-lg mt-10 p-10">
+        <div className="relative z-10 max-w-3xl mx-auto bg-gray-800 shadow-lg rounded-lg mt-10 p-10">
           {isValidBudget ? <BudgetTracker /> : <BudgetForm />}
         </div>
 

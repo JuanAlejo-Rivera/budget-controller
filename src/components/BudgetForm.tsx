@@ -28,7 +28,7 @@ export default function BudgetForm() {
                     Define tu presupuesto
                 </label>
 
-                <p className="text-gray-800 font-bold max-w-2xl text-xl text-center mx-auto">
+                <p className="text-white font-bold max-w-2xl text-xl text-center mx-auto">
                     Planea tu presupuesto y mantén siempre el control de tus finanzas.
                 </p>
                 <input

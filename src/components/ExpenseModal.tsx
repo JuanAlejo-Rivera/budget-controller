@@ -15,7 +15,7 @@ export default function ExpenseModal() {
           type="button"
           onClick={() => dispatch({ type: 'show-modal' })}
         >
-          <PlusCircleIcon className='w-16 h-16 text-blue-200 rounded-full' />
+          <PlusCircleIcon className='w-16 h-16 text-red-500 rounded-full' />
         </button>
       </div>
 

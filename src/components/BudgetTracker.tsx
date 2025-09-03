@@ -11,8 +11,8 @@ export const BudgetTracker = () => {
     const {dispatch} = useBudget()
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="flex justify-center">
+        <div className="grid grid-cols-1 bg md:grid-cols-2 gap-5">
+            <div className="flex bg justify-center">
                 <CircularProgressbar
                 value={percentage}
                 styles={buildStyles({
@@ -28,7 +28,7 @@ export const BudgetTracker = () => {
             <div className="flex flex-col justify-center items-center gap-8">
                 <button
                     type="button"
-                    className="bg-pink-600 w-full p-2 text-white uppercase fond-bold rounded-lg"
+                    className="bg-pink-600 hover:bg-pink-700 w-full p-2 text-white uppercase fond-bold rounded-lg"
                     onClick={() => dispatch({type:'reset-app'})}
                 >
                     Resetear app
