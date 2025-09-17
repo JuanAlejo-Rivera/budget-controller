@@ -25,7 +25,6 @@ Además, se pueden **buscar los gastos por categoría** y visualizar un resumen 
 - **React 19** + **TypeScript**  
 - **Vite**  
 - **TailwindCSS**  
-- **PropTypes**  
 - **React Calendar** y **React DatePicker**  
 - **React Circular Progressbar**  
 - **React Swipeable List**  
