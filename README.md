@@ -1,6 +1,6 @@
-# 💰 Budget Controller - Controlador de Gastos
+# 💰 Controlador de Gastos
 
-Budget Controller es una aplicación web que permite a los usuarios **ingresar su presupuesto, agregar gastos y clasificarlos por categorías**.  
+Controlador de Gastos es una aplicación web que permite a los usuarios **ingresar su presupuesto, agregar gastos y clasificarlos por categorías**.  
 Además, se pueden **buscar los gastos por categoría** y visualizar un resumen del presupuesto restante de manera interactiva.  
 
 🔗 **Demo en vivo**: [https://budget-controller-rust.vercel.app/](https://budget-controller-rust.vercel.app/)  
